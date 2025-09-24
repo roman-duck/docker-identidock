@@ -27,7 +27,7 @@ docker run -d -p 9090:9090 -p 9191:9191 identidock
 
 Run witn dev environment
 ```bash 
-docker run -e "ENV=DEV" -p 5000:5000 identidock
+docker run -e "ENV=dev" -p 5000:5000 identidock
 ```
 
 Run witn mouning app folder to the container:
